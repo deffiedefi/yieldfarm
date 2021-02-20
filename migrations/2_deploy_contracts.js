@@ -1,5 +1,5 @@
-const Dapp Swap Swap = artifacts.require('Dapp Swap Swap')
+const TokenFarm = artifacts.require('TokenFarm')
 
 module.exports = function(deployer) {
-  deployer.deploy(Dapp Swap Swap)
+  deployer.deploy(TokenFarm)
 }

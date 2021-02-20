@@ -15,7 +15,8 @@ module.exports = {
     solc: {
       optimizer: {
         enabled: true,
-        runs: 200
+        runs: 200,
+        version: "0.5.16"
       },
       evmVersion: "petersburg"
     }
